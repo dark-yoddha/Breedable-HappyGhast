@@ -1,0 +1,6 @@
+name: breedable-happyghast
+version: '1.0'
+main: com.darkyoddha.BreedableHappyghast
+api-version: '1.21'
+authors: [ Dark_Yoddha ]
+description: A plugin that allows players to breed happy ghasts using snowballs

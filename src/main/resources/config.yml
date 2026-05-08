@@ -1,0 +1,31 @@
+# Happy Ghast Breeder Configuration
+
+# Attraction settings
+attraction:
+  # Radius in blocks that ghasts will be attracted to snowball holder
+  radius: 20.0
+  # Speed at which ghasts move towards player
+  speed: 0.5
+
+# Breeding settings
+breeding:
+  # Cooldown in seconds before ghast can breed again (5 minutes = 300 seconds)
+  cooldown: 300
+  # Chance (0.0 to 1.0) for dried happy ghast to spawn during breeding
+  dried-ghast-spawn-chance: 0.3
+  # Amount of health restored when feeding with snowball
+  heal-amount: 4.0
+
+# Particle settings
+particles:
+  # Display heart particles when in love mode
+  show-hearts: true
+  # Number of heart particles to display
+  heart-count: 5
+
+# Sound settings
+sounds:
+  # Play sound when feeding ghast
+  play-feed-sound: true
+  # Play sound when ghasts breed
+  play-breed-sound: true
